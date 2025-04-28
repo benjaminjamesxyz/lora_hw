@@ -419,6 +419,10 @@
     [
       "edb1e4c3-83a3-4443-aa4b-0e758d3bea47",
       "MCU"
+    ],
+    [
+      "360b299b-84d8-4d26-8110-4c6e53cc9fa4",
+      "Power Tree"
     ]
   ],
   "text_variables": {}
