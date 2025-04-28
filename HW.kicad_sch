@@ -5,8 +5,28 @@
 	(uuid "01550cd7-b424-469c-925b-c370f3609cd4")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 134.62 100.33) (xy 162.56 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864aa566-6aee-47ac-9506-e44a189ef7d6")
+	)
+	(wire
+		(pts
+			(xy 134.62 104.14) (xy 162.56 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2c72464-14eb-4688-b0bb-52977371d97c")
+	)
 	(sheet
-		(at 73.66 93.98)
+		(at 77.47 49.53)
 		(size 39.37 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +42,7 @@
 		)
 		(uuid "2dab47df-4ca4-4373-b48e-0efc8c61f605")
 		(property "Sheetname" "LoRA Module"
-			(at 73.66 93.2684 0)
+			(at 77.47 48.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +51,7 @@
 			)
 		)
 		(property "Sheetfile" "lora_module.kicad_sch"
-			(at 73.66 126.3146 0)
+			(at 77.47 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,8 +68,8 @@
 		)
 	)
 	(sheet
-		(at 76.2 148.59)
-		(size 33.02 15.24)
+		(at 107.95 95.25)
+		(size 26.67 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +84,7 @@
 		)
 		(uuid "360b299b-84d8-4d26-8110-4c6e53cc9fa4")
 		(property "Sheetname" "Power Tree"
-			(at 76.2 147.8784 0)
+			(at 107.95 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +93,7 @@
 			)
 		)
 		(property "Sheetfile" "power_tree.kicad_sch"
-			(at 76.2 164.4146 0)
+			(at 107.95 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,8 +102,18 @@
 			)
 		)
 		(pin "3V3_VCC" input
-			(at 109.22 151.13 0)
+			(at 134.62 100.33 0)
 			(uuid "e87af1ec-c9c9-48d7-94fa-c9cd84a37cba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3_VCCA" input
+			(at 134.62 104.14 0)
+			(uuid "b7796d5d-6ba9-42d7-b05b-69087a315318")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -101,7 +131,7 @@
 	)
 	(sheet
 		(at 162.56 95.25)
-		(size 68.58 31.75)
+		(size 36.83 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -131,6 +161,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VCC" input
+			(at 162.56 100.33 180)
+			(uuid "14923735-f768-42cd-9197-26c4dd180aa1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCCA" input
+			(at 162.56 104.14 180)
+			(uuid "e09fd075-d708-4ce3-8fd0-be39fb7e49fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

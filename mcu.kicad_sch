@@ -1095,10 +1095,24 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.1588)
+				(color 0 0 0 1)
 			)
 			(justify left)
 		)
 		(uuid "96896717-9bd8-4cfb-a6af-004356a8b8d7")
+	)
+	(text "Power In"
+		(exclude_from_sim no)
+		(at 25.4 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "b9c3718b-5f15-456c-adc5-e236d5f3188a")
 	)
 	(text "note: connect these capacitors\nclose to VDDA pin as discussed in\nchapter 6.1.6 of MCU datasheet"
 		(exclude_from_sim no)
@@ -1107,6 +1121,7 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.1588)
+				(color 0 0 0 1)
 			)
 			(justify left)
 		)
@@ -1176,6 +1191,27 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 64.77) (xy 31.75 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21275e2f-b190-4199-a7f7-87cad174e104")
+	)
+	(polyline
+		(pts
+			(xy 36.83 68.58) (xy 36.83 46.99)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 72 72 1)
+		)
+		(uuid "2fb3381c-80ab-4115-876b-19ef77f30731")
+	)
+	(wire
+		(pts
 			(xy 34.29 30.48) (xy 34.29 27.94)
 		)
 		(stroke
@@ -1196,6 +1232,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 60.96) (xy 22.86 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e0c69a-9544-427c-a09d-d877d23785da")
+	)
+	(wire
+		(pts
 			(xy 69.85 26.67) (xy 69.85 29.21)
 		)
 		(stroke
@@ -1213,6 +1259,16 @@
 			(type default)
 		)
 		(uuid "7c0dc05f-b1d2-4cfa-af8d-3561932d376a")
+	)
+	(wire
+		(pts
+			(xy 25.4 58.42) (xy 25.4 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ed9caf-8ec0-4694-b77c-4883d6963fee")
 	)
 	(wire
 		(pts
@@ -1254,6 +1310,27 @@
 			(type default)
 		)
 		(uuid "b6eefc1b-0ade-4f28-851b-6c94007903d7")
+	)
+	(wire
+		(pts
+			(xy 22.86 64.77) (xy 31.75 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad5c713-f478-45e4-9a0f-26fe45644fab")
+	)
+	(polyline
+		(pts
+			(xy 12.7 68.58) (xy 36.83 68.58)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 72 72 1)
+		)
+		(uuid "d36e7b8d-349a-46bc-8c9c-eb49f1e6f41e")
 	)
 	(wire
 		(pts
@@ -1305,6 +1382,28 @@
 			(type default)
 		)
 		(uuid "f4d9c94f-1aa8-4822-be41-adba1700a9a7")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 22.86 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98ada678-ff73-40de-af17-66eb4392ff01")
+	)
+	(hierarchical_label "VCCCA"
+		(shape input)
+		(at 22.86 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc07b770-9426-48f0-957b-1b1390f1e960")
 	)
 	(symbol
 		(lib_id "power:VDD")
@@ -1640,6 +1739,71 @@
 			(project ""
 				(path "/01550cd7-b424-469c-925b-c370f3609cd4/edb1e4c3-83a3-4443-aa4b-0e758d3bea47"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 31.75 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d438e99-edc4-4ba6-a7a7-45f7a96269c7")
+		(property "Reference" "#PWR016"
+			(at 31.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 31.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 31.75 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a543168b-3e48-4ab5-bc0d-24a9d461e3dc")
+		)
+		(instances
+			(project ""
+				(path "/01550cd7-b424-469c-925b-c370f3609cd4/edb1e4c3-83a3-4443-aa4b-0e758d3bea47"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -2098,6 +2262,71 @@
 			(project ""
 				(path "/01550cd7-b424-469c-925b-c370f3609cd4/edb1e4c3-83a3-4443-aa4b-0e758d3bea47"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 25.4 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8c8a9b0-ef4d-4894-9414-4681df220a71")
+		(property "Reference" "#PWR011"
+			(at 25.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 25.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 25.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fc2823b-676b-42e6-9a86-133ee08f23d5")
+		)
+		(instances
+			(project ""
+				(path "/01550cd7-b424-469c-925b-c370f3609cd4/edb1e4c3-83a3-4443-aa4b-0e758d3bea47"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
