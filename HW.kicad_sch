@@ -81,6 +81,16 @@
 				(justify left top)
 			)
 		)
+		(pin "3V3_VCC" input
+			(at 109.22 151.13 0)
+			(uuid "e87af1ec-c9c9-48d7-94fa-c9cd84a37cba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "HW"
 				(path "/01550cd7-b424-469c-925b-c370f3609cd4"
