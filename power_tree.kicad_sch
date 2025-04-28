@@ -694,7 +694,7 @@
 		(uuid "835f9438-1461-43e1-9352-2e26ff9c3e3f")
 	)
 	(hierarchical_label "3V3_VCCA"
-		(shape input)
+		(shape output)
 		(at 166.37 76.2 0)
 		(effects
 			(font
@@ -705,7 +705,7 @@
 		(uuid "4e8422c5-25ba-4d5f-962d-423a11ef7610")
 	)
 	(hierarchical_label "3V3_VCC"
-		(shape input)
+		(shape output)
 		(at 166.37 91.44 0)
 		(effects
 			(font
