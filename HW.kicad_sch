@@ -48,6 +48,58 @@
 		)
 	)
 	(sheet
+		(at 76.2 148.59)
+		(size 33.02 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "360b299b-84d8-4d26-8110-4c6e53cc9fa4")
+		(property "Sheetname" "Power Tree"
+			(at 76.2 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_tree.kicad_sch"
+			(at 76.2 164.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3_VCC" input
+			(at 109.22 151.13 0)
+			(uuid "e87af1ec-c9c9-48d7-94fa-c9cd84a37cba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "HW"
+				(path "/01550cd7-b424-469c-925b-c370f3609cd4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 162.56 95.25)
 		(size 68.58 31.75)
 		(exclude_from_sim no)
