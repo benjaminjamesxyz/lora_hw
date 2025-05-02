@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "lcsc_switch")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/spst_push_button.kicad_sym")(options "")(descr ""))
+)
