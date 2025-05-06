@@ -27,6 +27,15 @@
 		(uuid "2a321a8e-f506-4f1c-8b7e-8d32dde068d1")
 	)
 	(bus_entry
+		(at 124.46 71.12)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c225b3d-6333-4d55-8965-f7c54c2379a3")
+	)
+	(bus_entry
 		(at 124.46 63.5)
 		(size -2.54 -2.54)
 		(stroke
@@ -108,15 +117,6 @@
 		(uuid "b8a52deb-b9f3-4dce-a96d-90efc6da25a5")
 	)
 	(bus_entry
-		(at 124.46 71.12)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb4ccd33-d228-4c08-a943-c2972055dc32")
-	)
-	(bus_entry
 		(at 147.32 93.98)
 		(size 2.54 2.54)
 		(stroke
@@ -165,6 +165,16 @@
 		)
 		(uuid "2729086d-d5c3-435f-a177-23330d7c22ac")
 	)
+	(bus
+		(pts
+			(xy 124.46 71.12) (xy 124.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f37f946-ca5f-4918-9559-71cc88b68634")
+	)
 	(wire
 		(pts
 			(xy 149.86 100.33) (xy 161.29 100.33)
@@ -185,19 +195,9 @@
 		)
 		(uuid "3d065abe-a774-45d7-baf7-28faccaa8832")
 	)
-	(wire
-		(pts
-			(xy 121.92 68.58) (xy 113.03 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "444649af-83bc-45db-9fa1-c074e634a92b")
-	)
 	(bus
 		(pts
-			(xy 124.46 71.12) (xy 124.46 67.31)
+			(xy 124.46 67.31) (xy 124.46 71.12)
 		)
 		(stroke
 			(width 0)
@@ -234,6 +234,16 @@
 			(type default)
 		)
 		(uuid "53abe7c9-26f7-471b-8b30-0ec648e089e5")
+	)
+	(wire
+		(pts
+			(xy 121.92 68.58) (xy 113.03 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f23c5f-9fde-4b27-9556-686c77b0e3d3")
 	)
 	(wire
 		(pts
@@ -274,16 +284,6 @@
 			(type default)
 		)
 		(uuid "66696df8-2938-4935-be40-7099ad52ffb8")
-	)
-	(bus
-		(pts
-			(xy 124.46 127) (xy 124.46 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bb31373-ebf7-4cbe-8684-8f590eac7f6f")
 	)
 	(bus
 		(pts
@@ -485,6 +485,16 @@
 		)
 		(uuid "3478ce2b-77ab-43b1-b4d9-55df0e02803d")
 	)
+	(label "USB_VCC"
+		(at 113.03 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d5e0253-59d0-4bd5-a052-fcc12b8315f8")
+	)
 	(label "UART_RXD"
 		(at 160.02 68.58 180)
 		(effects
@@ -524,16 +534,6 @@
 			(justify left bottom)
 		)
 		(uuid "b4a36359-5148-4be6-a07a-dd801a361790")
-	)
-	(label "USB_VCC"
-		(at 113.03 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ecc0faa9-d431-4c65-a418-b0c7d64dfe74")
 	)
 	(label "UART_TXD"
 		(at 161.29 105.41 180)
@@ -651,9 +651,9 @@
 				(justify right)
 			)
 		)
-		(pin "USB_VCC" output
+		(pin "USB_VCC" input
 			(at 113.03 68.58 0)
-			(uuid "54ecc873-a1f5-4347-9fe1-92926cec1428")
+			(uuid "445c9892-806d-4ecb-8773-efaf9f058e98")
 			(effects
 				(font
 					(size 1.27 1.27)

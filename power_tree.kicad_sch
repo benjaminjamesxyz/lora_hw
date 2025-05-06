@@ -702,7 +702,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 27.94) (xy 17.78 34.29)
+			(xy 26.67 34.29) (xy 33.02 34.29)
 		)
 		(stroke
 			(width 0)
@@ -742,7 +742,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 34.29) (xy 17.78 34.29)
+			(xy 33.02 24.13) (xy 33.02 34.29)
 		)
 		(stroke
 			(width 0)
@@ -885,13 +885,13 @@
 		(uuid "dc7e80f9-fd1c-4c88-a6d8-bc8504069dce")
 	)
 	(hierarchical_label "USB_VCC"
-		(shape output)
-		(at 17.78 27.94 90)
+		(shape input)
+		(at 26.67 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "eea4b2f5-7699-4f6a-a763-54302c808bc0")
 	)
@@ -1036,7 +1036,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 27.94 34.29 270)
+		(at 33.02 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1044,7 +1044,7 @@
 		(dnp no)
 		(uuid "58fba050-cf77-4c14-b8d8-6d33464e2fd4")
 		(property "Reference" "#PWR028"
-			(at 24.13 34.29 0)
+			(at 33.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1053,7 +1053,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 31.75 34.2899 90)
+			(at 33.0199 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,7 +1062,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 34.29 0)
+			(at 33.02 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1071,7 +1071,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 34.29 0)
+			(at 33.02 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,7 +1080,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 27.94 34.29 0)
+			(at 33.02 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
