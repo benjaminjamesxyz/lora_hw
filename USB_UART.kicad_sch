@@ -1857,13 +1857,27 @@
 		)
 		(uuid "15d99aca-2331-4f4c-a326-4061af767c08")
 	)
+	(text "Reset In\n"
+		(exclude_from_sim no)
+		(at 51.562 17.526 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "be062ef9-aa9f-49b2-9628-171edf3f9a2c")
+	)
 	(text "Power Out\n"
 		(exclude_from_sim no)
 		(at 18.542 17.018 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.1588)
+				(thickness 0.254)
+				(bold yes)
 				(color 0 0 0 1)
 			)
 		)
@@ -1930,10 +1944,6 @@
 	(no_connect
 		(at 173.99 96.52)
 		(uuid "ce1c43fe-49fe-4733-9524-b8a94dbf15fb")
-	)
-	(no_connect
-		(at 173.99 91.44)
-		(uuid "d2fa6037-2b7d-4e48-9b25-91c295893506")
 	)
 	(no_connect
 		(at 102.87 102.87)
@@ -2102,6 +2112,17 @@
 		)
 		(uuid "7219083e-22c4-47db-97ca-462a0c85a00e")
 	)
+	(polyline
+		(pts
+			(xy 64.77 39.37) (xy 64.77 12.7)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 72 72 1)
+		)
+		(uuid "761eb2cb-76e4-44f7-8c80-9b59f2358bf4")
+	)
 	(wire
 		(pts
 			(xy 196.85 60.96) (xy 196.85 66.04)
@@ -2145,6 +2166,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 35.56) (xy 49.53 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee4b1c2-dd11-4dfc-907b-5ef8dc740c91")
+	)
+	(wire
+		(pts
 			(xy 189.23 116.84) (xy 189.23 124.46)
 		)
 		(stroke
@@ -2182,6 +2213,16 @@
 			(type default)
 		)
 		(uuid "a2821313-c254-49c0-a6f5-721f0268bfc4")
+	)
+	(wire
+		(pts
+			(xy 58.42 25.4) (xy 58.42 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a68192aa-56b3-4937-bd18-60f2777d33ae")
 	)
 	(wire
 		(pts
@@ -2274,6 +2315,17 @@
 		)
 		(uuid "e44c1e04-3961-447b-afa1-8fe962ef4ec1")
 	)
+	(polyline
+		(pts
+			(xy 38.1 39.37) (xy 64.77 39.37)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 72 72 1)
+		)
+		(uuid "e7665f2f-3400-452e-8ce9-2c02d43ef6ad")
+	)
 	(wire
 		(pts
 			(xy 102.87 88.9) (xy 102.87 90.17)
@@ -2315,6 +2367,16 @@
 		)
 		(uuid "fba18a9c-d0de-4de3-817a-196796f86279")
 	)
+	(wire
+		(pts
+			(xy 167.64 91.44) (xy 173.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbcfa7a0-4acd-4856-99b5-0ad2017a9ed0")
+	)
 	(label "CC2"
 		(at 274.32 16.51 0)
 		(effects
@@ -2354,6 +2416,16 @@
 			(justify right bottom)
 		)
 		(uuid "4083e950-aad2-4521-a4ac-b8521f65c8d6")
+	)
+	(label "RESET"
+		(at 58.42 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e41ab32-921d-4297-865b-b2b58cbc189e")
 	)
 	(label "CC1"
 		(at 256.54 16.51 0)
@@ -2395,6 +2467,16 @@
 		)
 		(uuid "dbf596a0-2f3c-4064-a3dd-4acbe3096cd4")
 	)
+	(label "RESET"
+		(at 167.64 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ecdaef53-1c8f-469b-a200-8bbb172a16bb")
+	)
 	(hierarchical_label "3V3_VCC"
 		(shape input)
 		(at 191.77 59.69 90)
@@ -2416,6 +2498,17 @@
 			(justify left)
 		)
 		(uuid "7112fe62-6f9d-4ef5-a2bb-2a43f03cf5f7")
+	)
+	(hierarchical_label "RESET"
+		(shape input)
+		(at 49.53 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a614b151-2071-4746-878c-31aebcd12102")
 	)
 	(hierarchical_label "USB_VCC"
 		(shape output)

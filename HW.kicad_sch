@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(bus_alias "BUS"
-		(members "VCC " "VCCA" "UART_TXD" "UART_RXD" "USB_VCC")
+		(members "VCC " "VCCA" "UART_TXD" "UART_RXD" "USB_VCC" "RESET")
 	)
 	(bus_entry
 		(at 124.46 67.31)
@@ -63,6 +63,15 @@
 		(uuid "5ce23706-9df5-4a7b-8265-40845c4d85c3")
 	)
 	(bus_entry
+		(at 147.32 113.03)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f0d274-9f84-4f28-9bb4-7dd5f2085585")
+	)
+	(bus_entry
 		(at 147.32 67.31)
 		(size 2.54 -2.54)
 		(stroke
@@ -88,6 +97,15 @@
 			(type default)
 		)
 		(uuid "92884432-44eb-4f8d-8314-f71d82b08582")
+	)
+	(bus_entry
+		(at 147.32 78.74)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a52deb-b9f3-4dce-a96d-90efc6da25a5")
 	)
 	(bus_entry
 		(at 124.46 71.12)
@@ -156,6 +174,16 @@
 			(type default)
 		)
 		(uuid "31f13dfd-2b35-4185-8562-fd362a46af4f")
+	)
+	(bus
+		(pts
+			(xy 147.32 78.74) (xy 147.32 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d065abe-a774-45d7-baf7-28faccaa8832")
 	)
 	(wire
 		(pts
@@ -259,6 +287,26 @@
 	)
 	(bus
 		(pts
+			(xy 147.32 113.03) (xy 147.32 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f81104-e964-4015-9dc2-774129825d0f")
+	)
+	(wire
+		(pts
+			(xy 149.86 76.2) (xy 160.02 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a1418d7-0ba3-4af3-9207-8dc2cb9206c5")
+	)
+	(bus
+		(pts
 			(xy 124.46 67.31) (xy 124.46 63.5)
 		)
 		(stroke
@@ -299,6 +347,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 115.57) (xy 161.29 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5289e4b-a1e2-4d75-a19f-18c011b0d8d4")
+	)
+	(wire
+		(pts
 			(xy 149.86 68.58) (xy 160.02 68.58)
 		)
 		(stroke
@@ -329,7 +387,7 @@
 	)
 	(bus
 		(pts
-			(xy 147.32 74.93) (xy 147.32 93.98)
+			(xy 147.32 74.93) (xy 147.32 78.74)
 		)
 		(stroke
 			(width 0)
@@ -349,7 +407,7 @@
 	)
 	(bus
 		(pts
-			(xy 147.32 107.95) (xy 147.32 128.27)
+			(xy 147.32 107.95) (xy 147.32 113.03)
 		)
 		(stroke
 			(width 0)
@@ -367,6 +425,16 @@
 		)
 		(uuid "06a0e1f0-4df2-435c-86e0-e3c63aec5e29")
 	)
+	(label "RESET"
+		(at 160.02 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f1d3858-191c-4894-9eab-8d6851bb4f40")
+	)
 	(label "VCC "
 		(at 113.03 60.96 0)
 		(effects
@@ -376,6 +444,16 @@
 			(justify left bottom)
 		)
 		(uuid "10eedda6-d548-42f3-8fd2-047ac8260ff8")
+	)
+	(label "RESET"
+		(at 161.29 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1fdb346e-9e93-4d20-8456-1c0e1e99e2f2")
 	)
 	(label "UART_TXD"
 		(at 160.02 72.39 180)
@@ -665,6 +743,16 @@
 				(justify left)
 			)
 		)
+		(pin "RESET" input
+			(at 161.29 115.57 180)
+			(uuid "fe822fd3-8af3-459a-9361-ddcccf94c05d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "HW"
 				(path "/01550cd7-b424-469c-925b-c370f3609cd4"
@@ -740,6 +828,16 @@
 		(pin "USART1_RX" input
 			(at 160.02 72.39 180)
 			(uuid "adecbd38-3841-4fa6-ab6c-21ea6721c5aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET" output
+			(at 160.02 76.2 180)
+			(uuid "41ff4177-18ab-44ec-beee-4c6138f15007")
 			(effects
 				(font
 					(size 1.27 1.27)
