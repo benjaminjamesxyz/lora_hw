@@ -2185,7 +2185,7 @@
 		(uuid "bb1c31a7-5734-47b2-9091-2d3be86dc289")
 	)
 	(hierarchical_label "USART1_TX"
-		(shape bidirectional)
+		(shape output)
 		(at 171.45 110.49 0)
 		(effects
 			(font
@@ -2207,7 +2207,7 @@
 		(uuid "98ada678-ff73-40de-af17-66eb4392ff01")
 	)
 	(hierarchical_label "USART1_RX"
-		(shape bidirectional)
+		(shape input)
 		(at 171.45 113.03 0)
 		(effects
 			(font
