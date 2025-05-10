@@ -863,7 +863,7 @@
 		(uuid "ea0a56ea-ac29-4126-8aee-09ab9c8fbf88")
 	)
 	(hierarchical_label "3V3_VCCA"
-		(shape output)
+		(shape passive)
 		(at 180.34 86.36 0)
 		(effects
 			(font
@@ -874,7 +874,7 @@
 		(uuid "4e8422c5-25ba-4d5f-962d-423a11ef7610")
 	)
 	(hierarchical_label "3V3_VCC"
-		(shape output)
+		(shape passive)
 		(at 180.34 101.6 0)
 		(effects
 			(font
@@ -885,7 +885,7 @@
 		(uuid "dc7e80f9-fd1c-4c88-a6d8-bc8504069dce")
 	)
 	(hierarchical_label "USB_VCC"
-		(shape input)
+		(shape passive)
 		(at 26.67 34.29 180)
 		(effects
 			(font

@@ -631,9 +631,9 @@
 				(justify left top)
 			)
 		)
-		(pin "3V3_VCC" output
+		(pin "3V3_VCC" passive
 			(at 113.03 60.96 0)
-			(uuid "98a367d8-6e8f-472a-9df2-aa85cc2f3fed")
+			(uuid "0cec6859-1259-458d-8f6e-e26c4dc22c80")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -641,9 +641,9 @@
 				(justify right)
 			)
 		)
-		(pin "3V3_VCCA" output
+		(pin "3V3_VCCA" passive
 			(at 113.03 64.77 0)
-			(uuid "e8ecc318-2227-4694-8434-a41d842b7e92")
+			(uuid "9cbd90bc-64b5-486e-b264-1509175741c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -651,9 +651,9 @@
 				(justify right)
 			)
 		)
-		(pin "USB_VCC" input
+		(pin "USB_VCC" passive
 			(at 113.03 68.58 0)
-			(uuid "445c9892-806d-4ecb-8773-efaf9f058e98")
+			(uuid "c5c74bf2-8f76-4298-993d-76c49a3498ef")
 			(effects
 				(font
 					(size 1.27 1.27)
