@@ -703,26 +703,6 @@
 				(justify left top)
 			)
 		)
-		(pin "3V3_VCC" input
-			(at 161.29 100.33 180)
-			(uuid "86cdc8e4-0aee-4941-affa-aa63c95b4252")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_VCC" output
-			(at 161.29 96.52 180)
-			(uuid "35e89646-7621-414f-8af6-99a73da78d6d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "UART_RXD" input
 			(at 161.29 110.49 180)
 			(uuid "3563ee22-b6ab-4804-9cf4-8bf0529be6c3")
@@ -746,6 +726,26 @@
 		(pin "RESET" input
 			(at 161.29 115.57 180)
 			(uuid "fe822fd3-8af3-459a-9361-ddcccf94c05d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_VCC" passive
+			(at 161.29 96.52 180)
+			(uuid "d3a3ed0d-5c51-44c7-8b13-99fdd882e27b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_VCC" passive
+			(at 161.29 100.33 180)
+			(uuid "74c219fd-1bd1-4453-8440-3a7fed1851e7")
 			(effects
 				(font
 					(size 1.27 1.27)
