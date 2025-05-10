@@ -1248,6 +1248,17 @@
 	)
 	(hierarchical_label "3V3_VCC"
 		(shape passive)
+		(at 265.43 22.86 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca0d50e3-28a2-4f1f-bac3-75493b87c7b4")
+	)
+	(hierarchical_label "3V3_VCC"
+		(shape passive)
 		(at 180.34 101.6 0)
 		(effects
 			(font
@@ -1561,7 +1572,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "100"
 			(at 267.97 40.6399 0)
 			(effects
 				(font
@@ -1673,72 +1684,6 @@
 			(project "HW"
 				(path "/01550cd7-b424-469c-925b-c370f3609cd4/360b299b-84d8-4d26-8110-4c6e53cc9fa4"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 265.43 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7bccaa12-18a5-493a-b57d-f2677039ae8f")
-		(property "Reference" "#PWR036"
-			(at 265.43 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 265.43 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 265.43 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0fc2d4c3-78cd-404d-a181-806efd6c0493")
-		)
-		(instances
-			(project "HW"
-				(path "/01550cd7-b424-469c-925b-c370f3609cd4/360b299b-84d8-4d26-8110-4c6e53cc9fa4"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
