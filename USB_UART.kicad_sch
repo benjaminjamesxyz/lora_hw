@@ -2028,18 +2028,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Reference: Chapter 3.2 of datasheet"
-		(exclude_from_sim no)
-		(at 247.396 50.546 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "15d99aca-2331-4f4c-a326-4061af767c08")
-	)
 	(text "TX Led"
 		(exclude_from_sim no)
 		(at 192.024 50.546 0)
