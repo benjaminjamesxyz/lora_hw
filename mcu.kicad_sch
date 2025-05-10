@@ -1667,6 +1667,19 @@
 		)
 		(uuid "bc5f528c-9020-4fb2-941b-d5cac158d96c")
 	)
+	(text "Reset Out\n"
+		(exclude_from_sim no)
+		(at 50.292 50.546 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "c23d8ccb-7cda-48f2-ac2c-edb78d354c58")
+	)
 	(text "{"
 		(exclude_from_sim no)
 		(at 212.09 36.83 0)
@@ -1683,6 +1696,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7606d7f0-753e-429f-b85b-b084aff8e499")
+	)
+	(wire
+		(pts
+			(xy 167.64 110.49) (xy 171.45 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01adc481-8bb1-42f2-8971-c9e9d41fca8a")
 	)
 	(polyline
 		(pts
@@ -1746,6 +1769,17 @@
 			(type default)
 		)
 		(uuid "1732c532-21fc-4d6d-a610-26854d1bb7c9")
+	)
+	(polyline
+		(pts
+			(xy 63.5 68.58) (xy 63.5 46.99)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 72 72 1)
+		)
+		(uuid "17ba8e62-289a-4263-bedb-8bf888a8b9a1")
 	)
 	(wire
 		(pts
@@ -1828,6 +1862,17 @@
 		)
 		(uuid "3748acbe-57f8-4fb2-85c3-edc1fa2853f7")
 	)
+	(polyline
+		(pts
+			(xy 36.83 68.58) (xy 63.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 72 72 72 1)
+		)
+		(uuid "4a55d3c6-e319-4cdc-a89f-d027febf7b88")
+	)
 	(wire
 		(pts
 			(xy 223.52 40.64) (xy 223.52 45.72)
@@ -1878,6 +1923,16 @@
 			(type default)
 		)
 		(uuid "648eeab1-6f23-4425-95fe-4f35c94f7ba2")
+	)
+	(wire
+		(pts
+			(xy 48.26 64.77) (xy 57.15 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65807427-7c44-44f6-a05c-129c542bf2db")
 	)
 	(wire
 		(pts
@@ -1972,6 +2027,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 55.88) (xy 57.15 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce2d3f5-a992-4c15-879b-aa2334827258")
+	)
+	(wire
+		(pts
 			(xy 267.97 40.64) (xy 267.97 39.37)
 		)
 		(stroke
@@ -2020,6 +2085,16 @@
 			(type default)
 		)
 		(uuid "bd74061c-deeb-4a6e-8dab-68bf03124db3")
+	)
+	(wire
+		(pts
+			(xy 167.64 113.03) (xy 171.45 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3dde6da-8a2c-46b8-b6a4-c34602468837")
 	)
 	(polyline
 		(pts
@@ -2145,6 +2220,16 @@
 		(uuid "2620004f-9060-47d5-8115-e0331145ad42")
 	)
 	(label "NRST"
+		(at 57.15 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "27af42af-34c5-4eb4-9053-c228a4cc015f")
+	)
+	(label "NRST"
 		(at 134.62 90.17 0)
 		(effects
 			(font
@@ -2164,8 +2249,30 @@
 		)
 		(uuid "bb1c31a7-5734-47b2-9091-2d3be86dc289")
 	)
+	(hierarchical_label "USART1_TX"
+		(shape output)
+		(at 171.45 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "241ddd63-9a75-49c3-bbf8-b7de8c962f65")
+	)
+	(hierarchical_label "RESET"
+		(shape output)
+		(at 48.26 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60478b07-0c38-45a4-a957-ff8067aa5a69")
+	)
 	(hierarchical_label "VCC"
-		(shape input)
+		(shape passive)
 		(at 22.86 60.96 180)
 		(effects
 			(font
@@ -2175,8 +2282,19 @@
 		)
 		(uuid "98ada678-ff73-40de-af17-66eb4392ff01")
 	)
-	(hierarchical_label "VCCCA"
+	(hierarchical_label "USART1_RX"
 		(shape input)
+		(at 171.45 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9074387-bf68-415e-bbb0-8bd75ca6cdc3")
+	)
+	(hierarchical_label "VCCCA"
+		(shape passive)
 		(at 22.86 64.77 180)
 		(effects
 			(font
@@ -3482,7 +3600,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 267.97 43.18 0)
 			(effects
 				(font
@@ -3681,7 +3799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 227.33 38.1 0)
 			(effects
 				(font
