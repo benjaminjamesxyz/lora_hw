@@ -416,7 +416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://wiki.ai-thinker.com/_media/lora/docs/c048ps01a1_ra-02_product_specification_v1.1.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/761/sx1276-1278113.pdf"
 			(at 148.59 83.82 0)
 			(effects
 				(font
