@@ -2054,6 +2054,19 @@
 		)
 		(uuid "9a8debe4-39bc-44c5-8724-9a582d6e3bac")
 	)
+	(text "note: an upstream facing port \nis connected like this to use \nUSB Type-C charging of 1.5A@5V"
+		(exclude_from_sim no)
+		(at 247.396 51.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "b1257d3e-b11a-40fe-a824-c685665f3815")
+	)
 	(text "Reset In\n"
 		(exclude_from_sim no)
 		(at 51.562 17.526 0)
@@ -2222,7 +2235,7 @@
 	)
 	(polyline
 		(pts
-			(xy 203.2 12.7) (xy 203.2 52.07)
+			(xy 203.2 12.7) (xy 203.2 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2395,7 +2408,7 @@
 	)
 	(polyline
 		(pts
-			(xy 284.48 52.07) (xy 242.57 52.07)
+			(xy 284.48 55.88) (xy 242.57 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2416,7 +2429,7 @@
 	)
 	(polyline
 		(pts
-			(xy 242.57 52.07) (xy 203.2 52.07)
+			(xy 242.57 55.88) (xy 203.2 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2619,7 +2632,7 @@
 	)
 	(polyline
 		(pts
-			(xy 242.57 52.07) (xy 242.57 12.7)
+			(xy 242.57 55.88) (xy 242.57 12.7)
 		)
 		(stroke
 			(width 0)
