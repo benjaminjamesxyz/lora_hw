@@ -2272,7 +2272,7 @@
 		(uuid "60478b07-0c38-45a4-a957-ff8067aa5a69")
 	)
 	(hierarchical_label "VCC"
-		(shape input)
+		(shape passive)
 		(at 22.86 60.96 180)
 		(effects
 			(font
@@ -2294,7 +2294,7 @@
 		(uuid "d9074387-bf68-415e-bbb0-8bd75ca6cdc3")
 	)
 	(hierarchical_label "VCCCA"
-		(shape input)
+		(shape passive)
 		(at 22.86 64.77 180)
 		(effects
 			(font

@@ -795,26 +795,6 @@
 				(justify left top)
 			)
 		)
-		(pin "VCC" input
-			(at 160.02 60.96 180)
-			(uuid "14923735-f768-42cd-9197-26c4dd180aa1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VCCCA" input
-			(at 160.02 64.77 180)
-			(uuid "e09fd075-d708-4ce3-8fd0-be39fb7e49fc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "USART1_TX" output
 			(at 160.02 68.58 180)
 			(uuid "92b58b44-b604-4668-a482-763cd062249d")
@@ -838,6 +818,26 @@
 		(pin "RESET" output
 			(at 160.02 76.2 180)
 			(uuid "41ff4177-18ab-44ec-beee-4c6138f15007")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" passive
+			(at 160.02 60.96 180)
+			(uuid "6d511e74-9b46-4639-8a80-5b1293097b1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCCA" passive
+			(at 160.02 64.77 180)
+			(uuid "048c4acd-d489-4db0-8b95-31ace6b9a6ce")
 			(effects
 				(font
 					(size 1.27 1.27)
