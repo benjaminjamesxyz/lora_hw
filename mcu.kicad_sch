@@ -1862,6 +1862,16 @@
 		)
 		(uuid "3748acbe-57f8-4fb2-85c3-edc1fa2853f7")
 	)
+	(wire
+		(pts
+			(xy 167.64 102.87) (xy 171.45 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4219e0eb-4c92-43fd-bff9-a9d5a08a7bd6")
+	)
 	(polyline
 		(pts
 			(xy 36.83 68.58) (xy 63.5 68.58)
@@ -1892,6 +1902,16 @@
 			(type default)
 		)
 		(uuid "58e0c69a-9544-427c-a09d-d877d23785da")
+	)
+	(wire
+		(pts
+			(xy 167.64 107.95) (xy 171.45 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59863927-eadf-4ccc-82fb-afe4fa8a9ec0")
 	)
 	(polyline
 		(pts
@@ -2037,6 +2057,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 100.33) (xy 171.45 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a333ffcc-de9c-46b7-bbc9-2d79cf9ed8f8")
+	)
+	(wire
+		(pts
 			(xy 267.97 40.64) (xy 267.97 39.37)
 		)
 		(stroke
@@ -2136,6 +2166,16 @@
 			(type default)
 		)
 		(uuid "da4eb4b3-e7f8-487e-a05d-e3e47ae808f9")
+	)
+	(wire
+		(pts
+			(xy 167.64 105.41) (xy 171.45 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea2b21a-df89-480d-a4b4-56eb5dabf001")
 	)
 	(polyline
 		(pts
@@ -2260,6 +2300,28 @@
 		)
 		(uuid "241ddd63-9a75-49c3-bbf8-b7de8c962f65")
 	)
+	(hierarchical_label "SPI1_SCK"
+		(shape output)
+		(at 171.45 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b06b065-304e-4a22-86d8-8ea535b82b62")
+	)
+	(hierarchical_label "SPI1_NSS"
+		(shape output)
+		(at 171.45 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ba6bceb-97e3-49dd-b429-c43fededc0b5")
+	)
 	(hierarchical_label "RESET"
 		(shape output)
 		(at 48.26 64.77 180)
@@ -2270,6 +2332,17 @@
 			(justify right)
 		)
 		(uuid "60478b07-0c38-45a4-a957-ff8067aa5a69")
+	)
+	(hierarchical_label "SPI1_MISO"
+		(shape input)
+		(at 171.45 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88949273-1b5b-4252-8c87-6d98a93f9564")
 	)
 	(hierarchical_label "VCC"
 		(shape passive)
@@ -2292,6 +2365,17 @@
 			(justify left)
 		)
 		(uuid "d9074387-bf68-415e-bbb0-8bd75ca6cdc3")
+	)
+	(hierarchical_label "SPI1_MOSI"
+		(shape output)
+		(at 171.45 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d92ca5df-0472-4850-8c7c-43524e12f030")
 	)
 	(hierarchical_label "VCCCA"
 		(shape passive)
