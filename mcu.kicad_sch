@@ -1936,6 +1936,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 102.87) (xy 142.24 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a4937d-6fef-441c-a45d-53610c8f3211")
+	)
+	(wire
+		(pts
 			(xy 241.3 38.1) (xy 229.87 38.1)
 		)
 		(stroke
@@ -2191,6 +2201,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 100.33) (xy 142.24 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f601edaa-d9a7-4a2b-88a3-d92f1d130f09")
+	)
+	(wire
+		(pts
 			(xy 248.92 39.37) (xy 252.73 39.37)
 		)
 		(stroke
@@ -2260,6 +2280,17 @@
 		)
 		(uuid "241ddd63-9a75-49c3-bbf8-b7de8c962f65")
 	)
+	(hierarchical_label "SDA "
+		(shape output)
+		(at 138.43 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "388c90a6-0df2-406b-8b23-47139db3a9af")
+	)
 	(hierarchical_label "RESET"
 		(shape output)
 		(at 48.26 64.77 180)
@@ -2303,6 +2334,17 @@
 			(justify right)
 		)
 		(uuid "dc07b770-9426-48f0-957b-1b1390f1e960")
+	)
+	(hierarchical_label "SCL "
+		(shape output)
+		(at 138.43 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e002cc02-c586-4e6b-a7b5-90a719cb395c")
 	)
 	(symbol
 		(lib_id "power:GND")

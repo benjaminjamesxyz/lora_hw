@@ -636,6 +636,10 @@
     [
       "b4895c98-2d65-46cb-a7d2-9672cea4def2",
       "USB UART"
+    ],
+    [
+      "f6a79147-08ef-4d1e-a6de-ce0c736e5b4d",
+      "OLED_Display"
     ]
   ],
   "text_variables": {}
