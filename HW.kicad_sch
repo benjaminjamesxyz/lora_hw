@@ -11,6 +11,15 @@
 		)
 	)
 	(bus_entry
+		(at 124.46 110.49)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "210d38c1-7565-4504-9bf6-6c09a78961c1")
+	)
+	(bus_entry
 		(at 124.46 59.69)
 		(size -2.54 -2.54)
 		(stroke
@@ -231,7 +240,7 @@
 	)
 	(bus
 		(pts
-			(xy 124.46 106.68) (xy 124.46 127)
+			(xy 124.46 106.68) (xy 124.46 110.49)
 		)
 		(stroke
 			(width 0)
@@ -439,6 +448,16 @@
 		)
 		(uuid "5f33a242-6c1a-4d9e-bf0e-b0ffdd784e69")
 	)
+	(bus
+		(pts
+			(xy 124.46 110.49) (xy 124.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e8b088-299d-4129-86dc-4e00c2c154a5")
+	)
 	(wire
 		(pts
 			(xy 149.86 55.88) (xy 167.64 55.88)
@@ -548,6 +567,16 @@
 			(type default)
 		)
 		(uuid "b5696688-85c1-4e98-9bf9-465097ac68e4")
+	)
+	(wire
+		(pts
+			(xy 106.68 113.03) (xy 121.92 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcba3ee7-3410-4599-8fc9-747d4ab7e925")
 	)
 	(bus
 		(pts
@@ -779,6 +808,16 @@
 		)
 		(uuid "a62e59b2-d0c1-424b-93c8-3b1e8d46c582")
 	)
+	(label "RESET"
+		(at 106.68 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a774f69c-5412-4b24-903e-58804037b61d")
+	)
 	(label "VCCA"
 		(at 106.68 57.15 0)
 		(effects
@@ -936,6 +975,16 @@
 		(pin "LORA_SCK" input
 			(at 106.68 105.41 0)
 			(uuid "e47b8c21-af9b-4fc9-9a49-bfb281aa3782")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RESET" input
+			(at 106.68 113.03 0)
+			(uuid "0a7a7f40-6e53-48d4-8a14-81d361454b2c")
 			(effects
 				(font
 					(size 1.27 1.27)

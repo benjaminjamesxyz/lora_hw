@@ -381,6 +381,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 110.49) (xy 135.89 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec2ba2c-de70-4c70-a5d3-6d0cb617a1d2")
+	)
+	(wire
+		(pts
 			(xy 129.54 105.41) (xy 135.89 105.41)
 		)
 		(stroke
@@ -440,6 +450,17 @@
 			(justify right)
 		)
 		(uuid "3cbb5591-a97a-4c08-9c5b-acb06b11d03e")
+	)
+	(hierarchical_label "RESET"
+		(shape input)
+		(at 129.54 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8142eeff-343e-4e4d-aa77-4af5d3a07aab")
 	)
 	(hierarchical_label "LORA_MOSI"
 		(shape input)
