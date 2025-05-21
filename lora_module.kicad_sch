@@ -379,6 +379,111 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 129.54 110.49) (xy 135.89 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec2ba2c-de70-4c70-a5d3-6d0cb617a1d2")
+	)
+	(wire
+		(pts
+			(xy 129.54 105.41) (xy 135.89 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869f6a12-f027-4dcc-8d1f-b5e83cd7d22d")
+	)
+	(wire
+		(pts
+			(xy 129.54 100.33) (xy 135.89 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79b4b2c-6890-4a17-8b12-9f0e56bd72d4")
+	)
+	(wire
+		(pts
+			(xy 129.54 97.79) (xy 135.89 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0476670-322f-4f3e-9860-dd8f0a95d1c0")
+	)
+	(wire
+		(pts
+			(xy 129.54 102.87) (xy 135.89 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db3c9b1a-2440-4467-b36e-084cb6d77f3e")
+	)
+	(hierarchical_label "LORA_SCK"
+		(shape input)
+		(at 129.54 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2595975d-950a-4907-b1f6-ef1253c37132")
+	)
+	(hierarchical_label "LORA_MISO"
+		(shape input)
+		(at 129.54 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3cbb5591-a97a-4c08-9c5b-acb06b11d03e")
+	)
+	(hierarchical_label "RESET"
+		(shape input)
+		(at 129.54 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8142eeff-343e-4e4d-aa77-4af5d3a07aab")
+	)
+	(hierarchical_label "LORA_MOSI"
+		(shape input)
+		(at 129.54 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c8a3c2a-4640-454d-845a-5c9759226cb8")
+	)
+	(hierarchical_label "LORA_NSS"
+		(shape input)
+		(at 129.54 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6b58e2f-61cf-45b1-9061-754292944bcb")
+	)
 	(symbol
 		(lib_id "RF_Module:Ai-Thinker-Ra-02")
 		(at 146.05 102.87 0)
@@ -416,7 +521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://wiki.ai-thinker.com/_media/lora/docs/c048ps01a1_ra-02_product_specification_v1.1.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/761/sx1276-1278113.pdf"
 			(at 148.59 83.82 0)
 			(effects
 				(font
