@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.15
         }
       ],
       "drc_exclusions": [],
@@ -187,7 +192,14 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.127,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -219,6 +231,18 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -471,7 +495,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -491,45 +515,63 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "Critical_Reset",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(194, 0, 194)",
         "priority": 0,
         "schematic_color": "rgb(194, 0, 194)",
         "wire_width": 6
       },
       {
         "bus_width": 12,
+        "clearance": 0.25,
         "line_style": 0,
         "name": "High_Current",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 87, 34)",
         "priority": 3,
         "schematic_color": "rgb(255, 87, 34)",
+        "track_width": 1.0,
+        "via_diameter": 1.0,
+        "via_drill": 0.5,
         "wire_width": 6
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
         "line_style": 0,
         "name": "Power_Nets",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 0)",
         "priority": 4,
         "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 0.5,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       },
       {
         "bus_width": 12,
+        "clearance": 0.15,
         "line_style": 0,
         "name": "SPI_Interface",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 184, 212)",
         "priority": 2,
         "schematic_color": "rgb(0, 184, 212)",
+        "track_width": 0.2,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
         "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.15,
         "line_style": 0,
         "name": "USB_Differential",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgb(0, 105, 92)",
+        "track_width": 0.15,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
