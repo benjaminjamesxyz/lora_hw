@@ -443,7 +443,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -486,6 +486,51 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "Critical_Reset",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(194, 0, 194)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "High_Current",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(255, 87, 34)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "Power_Nets",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(255, 0, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "SPI_Interface",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 184, 212)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "USB_Differential",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 105, 92)",
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -493,7 +538,32 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": ".*"
+      },
+      {
+        "netclass": "Critical_Reset",
+        "pattern": "^/RESET.*$|^/NRST.*$|^.*/BOOT.*$|^/RST.*"
+      },
+      {
+        "netclass": "SPI_Interface",
+        "pattern": "^/SPI_.*$|^/SCK_.*$|^/MOSI_.*$|^/MISO_.*$|^/CS_.*$|^/SDI_.*$|^/SDO_.*"
+      },
+      {
+        "netclass": "USB_Differential",
+        "pattern": "^USB_DP_.*$|^USB_DN_.*$|^D-_.*$|^D+_.*|^.*/USBD.$"
+      },
+      {
+        "netclass": "High_Current",
+        "pattern": "^USB_PWR_.*$|^VBUS_.*$|^CHRG_.*$|^BAT_.*"
+      },
+      {
+        "netclass": "Power_Nets",
+        "pattern": "^VCC.*$|^3V3.*$|^5V.*$|^GND.*$|^VDD.*$|^VBAT.*$|^VIN.*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
