@@ -1,15 +1,10 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "01550cd7-b424-469c-925b-c370f3609cd4")
 	(paper "A4")
 	(lib_symbols)
-	(bus_alias "BUS"
-		(members "VCC " "VCCA" "USB_UART_TX" "USB_UART_RX" "USB_VCC" "RESET" "SPI_MOSI"
-			"SPI_MISO" "SPI_SCK" "SPI_NSS"
-		)
-	)
 	(bus_entry
 		(at 124.46 110.49)
 		(size -2.54 2.54)
@@ -921,11 +916,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "2dab47df-4ca4-4373-b48e-0efc8c61f605")
 		(property "Sheetname" "LoRA Module"
 			(at 72.39 93.2684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,6 +932,8 @@
 		)
 		(property "Sheetfile" "lora_module.kicad_sch"
 			(at 72.39 126.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1013,11 +1012,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "360b299b-84d8-4d26-8110-4c6e53cc9fa4")
 		(property "Sheetname" "Power Tree"
 			(at 72.39 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1027,6 +1028,8 @@
 		)
 		(property "Sheetfile" "power_tree.kicad_sch"
 			(at 72.39 80.5946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1085,11 +1088,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "b4895c98-2d65-46cb-a7d2-9672cea4def2")
 		(property "Sheetname" "USB UART"
 			(at 168.91 93.2684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1099,6 +1104,8 @@
 		)
 		(property "Sheetfile" "USB_UART.kicad_sch"
 			(at 168.91 126.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1177,11 +1184,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "edb1e4c3-83a3-4443-aa4b-0e758d3bea47")
 		(property "Sheetname" "MCU"
 			(at 167.64 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1191,6 +1200,8 @@
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
 			(at 167.64 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
