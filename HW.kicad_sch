@@ -123,6 +123,15 @@
 		(uuid "75bc984e-9b0f-4a06-9db5-01bfe37a688b")
 	)
 	(bus_entry
+		(at 121.92 116.84)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7763b6e9-f302-46a5-8dab-f269d4219f76")
+	)
+	(bus_entry
 		(at 124.46 95.25)
 		(size -2.54 2.54)
 		(stroke
@@ -203,6 +212,16 @@
 		)
 		(uuid "f4f2c749-dc5c-41f4-acae-8b8687434043")
 	)
+	(wire
+		(pts
+			(xy 106.68 116.84) (xy 121.92 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "057c9cb9-5c4b-43e9-abe9-a68860804864")
+	)
 	(bus
 		(pts
 			(xy 124.46 102.87) (xy 124.46 106.68)
@@ -282,6 +301,16 @@
 			(type default)
 		)
 		(uuid "2729086d-d5c3-435f-a177-23330d7c22ac")
+	)
+	(bus
+		(pts
+			(xy 124.46 114.3) (xy 124.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dac7234-7897-4015-9a96-cdb8d2fd159f")
 	)
 	(bus
 		(pts
@@ -445,7 +474,7 @@
 	)
 	(bus
 		(pts
-			(xy 124.46 110.49) (xy 124.46 127)
+			(xy 124.46 110.49) (xy 124.46 114.3)
 		)
 		(stroke
 			(width 0)
@@ -843,6 +872,16 @@
 		)
 		(uuid "bab11601-c9f1-44dd-aa4a-d20891ab8f1b")
 	)
+	(label "VCC "
+		(at 107.95 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca08aa9a-95cd-45d9-a9b6-d7b852106079")
+	)
 	(label "SPI_NSS"
 		(at 167.64 82.55 180)
 		(effects
@@ -984,6 +1023,16 @@
 		(pin "RESET" input
 			(at 106.68 113.03 0)
 			(uuid "0a7a7f40-6e53-48d4-8a14-81d361454b2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" passive
+			(at 106.68 116.84 0)
+			(uuid "14aaa063-ef8f-4d1c-852f-ba67fa4fa0cf")
 			(effects
 				(font
 					(size 1.27 1.27)
